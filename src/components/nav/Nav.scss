@@ -1,0 +1,61 @@
+.nav-main{
+    padding: 15px 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    .logo{
+        flex: 1;
+    }
+    .nav-details{
+        display: flex;
+        align-items: center;
+        gap: 0 24px;
+        p{            
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0 10px;
+            letter-spacing: .5833333135px;
+            font-weight: 400;
+            transition: 0.3s;
+            .animate{                
+                animation-name: nav-details;
+                animation-duration: .5s;
+                animation-fill-mode: forwards;
+            }
+            .animate-reverse{                
+                animation-name: nav-details-reverse;
+                animation-duration: .5s;
+                animation-fill-mode: forwards;
+            }
+        }
+        .is-logged{
+            cursor: pointer;
+            .nav-user{
+                font-size: 36px;
+            }
+        }
+    }
+}
+
+
+
+@keyframes nav-details{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes nav-details-reverse{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(0);
+    }
+}
