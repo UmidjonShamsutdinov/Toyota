@@ -1,0 +1,160 @@
+{
+    "Products" : [
+        {
+          "name": "Toyota Camry",
+          "model": "XSE 2024",
+          "price": "$30,000",
+          "description": "A sedan that perfectly blends comfort and sportiness.",
+          "images": [
+            "https://img.sm360.ca/images/newcar/ca/2024/toyota/camry-hybride/le/sedan/main/2024_Toyota_Camry-Hybride_Le_MAIN.png",
+            "https://media.ed.edmunds-media.com/toyota/camry/2024/oem/2024_toyota_camry_sedan_xse_fq_oem_3_1280x855.jpg",
+            "https://media.ed.edmunds-media.com/toyota/camry/2024/oem/2024_toyota_camry_sedan_trd_rq_oem_1_1280x855.jpg"
+          ],
+          "video": "https://youtu.be/bPhBKL37fQ8"
+        },
+        {
+          "name": "Toyota Corolla",
+          "model": "SE 2024",
+          "price": "$24,000",
+          "description": "A reliable and fuel-efficient compact car, ideal for urban driving.",
+          "images": [
+            "https://img.sm360.ca/images/newcar/ca/2024/toyota/corolla/se/sedan/main/2024_Toyota_Corolla_3-SE-CVT_MAIN.png",
+            "https://claveyscorner.com/wp-content/uploads/2023/12/2024-Toyota-Corolla-Hybrid-SE-AWD-Top-Shot.jpg",
+            "https://claveyscorner.com/wp-content/uploads/2023/12/2024-Toyota-Corolla-Hybrid-Driving-Rear.jpg"
+          ],
+          "video": "https://youtu.be/lIkS0C2jRUI"
+        },
+        {
+            "name": "Toyota RAV4",
+            "model": "XLE 2024",
+            "price": "$31,500",
+            "description": "One of the most popular compact SUVs, known for its versatility.",
+            "images": [
+              "https://media.dealervenom.com/jellies/Toyota/RAV4/C444682_040_Side.png?auto=compress%2Cformat",
+              "https://www.motortrend.com/uploads/sites/5/2018/11/2019-Toyota-RAV4-Limited-front-three-quarter-in-motion-2-1.jpg?w=768&width=768&q=75&format=webp",
+              "https://media.ed.edmunds-media.com/toyota/camry/2024/oem/2024_toyota_camry_sedan_trd_rq_oem_1_1280x855.jpg"
+            ],
+            "video": "https://youtu.be/eOjfZ7ASpJM"
+        },
+        {
+          "name": "Toyota Highlander",
+          "model": "Platinum 2024",
+          "price": "$46,000",
+          "description": "A midsize SUV perfect for families and long road trips.",
+          "video": "https://www.youtube.com/watch?v=l1f_xoBdGHg"
+        },
+        {
+          "name": "Toyota Land Cruiser",
+          "model": "300 Series 2024",
+          "price": "$90,000",
+          "description": "Legendary off-road capabilities with premium luxury features.",
+          "video": "https://www.youtube.com/watch?v=Rz_X93chdwc"
+        },
+        {
+          "name": "Toyota Tacoma",
+          "model": "TRD Off-Road 2024",
+          "price": "$40,000",
+          "description": "A rugged and reliable midsize pickup truck made for adventure.",
+          "video": "https://www.youtube.com/watch?v=KuTRP6Hi6GU"
+        },
+        {
+          "name": "Toyota Tundra",
+          "model": "1794 Edition 2024",
+          "price": "$65,000",
+          "description": "A powerful full-size truck designed for heavy-duty work and comfort.",
+          "video": "https://www.youtube.com/watch?v=zLUAYKfgKKQ"
+        },
+        {
+          "name": "Toyota Prius",
+          "model": "LE 2024",
+          "price": "$28,000",
+          "description": "The iconic hybrid car combining fuel efficiency and innovation.",
+          "video": "https://www.youtube.com/watch?v=5k2XOxvDOo0"
+        },
+        {
+          "name": "Toyota GR Supra",
+          "model": "3.0 Premium 2024",
+          "price": "$56,000",
+          "description": "A legendary sports car blending performance and style.",
+          "video": "https://www.youtube.com/watch?v=8EgsFPn0ZHE"
+        },
+        {
+          "name": "Toyota GR86",
+          "model": "Premium 2024",
+          "price": "$32,000",
+          "description": "A lightweight, fun-to-drive sports coupe perfect for enthusiasts.",
+          "video": "https://www.youtube.com/watch?v=ZX37yMLP7Zg"
+        },
+        {
+          "name": "Toyota Venza",
+          "model": "Limited 2024",
+          "price": "$41,000",
+          "description": "A hybrid crossover combining efficiency with luxury.",
+          "video": "https://www.youtube.com/watch?v=K5Oi-MAgkQk"
+        },
+        {
+          "name": "Toyota Sequoia",
+          "model": "Capstone 2024",
+          "price": "$80,000",
+          "description": "A full-size SUV built for large families and outdoor adventures.",
+          "video": "https://www.youtube.com/watch?v=rvU0ijDFUSM"
+        },
+        {
+          "name": "Toyota Sienna",
+          "model": "XSE AWD 2024",
+          "price": "$48,000",
+          "description": "A hybrid minivan offering comfort, space, and fuel efficiency.",
+          "video": "https://www.youtube.com/watch?v=tHHsRMQ1CEo"
+        },
+        {
+          "name": "Toyota Yaris",
+          "model": "LE 2024",
+          "price": "$19,500",
+          "description": "A compact city car that is affordable and highly maneuverable.",
+          "video": "https://www.youtube.com/watch?v=_FqoqVHv-xA"
+        },
+        {
+          "name": "Toyota C-HR",
+          "model": "XLE 2024",
+          "price": "$27,500",
+          "description": "A sporty, stylish crossover designed for the urban lifestyle.",
+          "video": "https://www.youtube.com/watch?v=87OXAHusOqg"
+        },
+        {
+          "name": "Toyota Avalon",
+          "model": "Limited 2022",
+          "price": "$44,000",
+          "description": "Toyota’s flagship sedan with a luxurious interior and smooth ride.",
+          "video": "https://www.youtube.com/watch?v=5u4xnLfDkOg"
+        },
+        {
+          "name": "Toyota Mirai",
+          "model": "XLE 2024",
+          "price": "$52,000",
+          "description": "A futuristic hydrogen fuel cell vehicle with zero emissions.",
+          "video": "https://www.youtube.com/watch?v=17B7EYTn_0k"
+        },
+        {
+          "name": "Toyota 4Runner",
+          "model": "TRD Pro 2024",
+          "price": "$52,500",
+          "description": "A rugged SUV ready for off-road adventures.",
+          "video": "https://www.youtube.com/watch?v=MoL0fJd3J6I"
+        },
+        {
+          "name": "Toyota Crown",
+          "model": "Platinum 2024",
+          "price": "$55,000",
+          "description": "A unique sedan-SUV crossover combining performance and luxury.",
+          "video": "https://www.youtube.com/watch?v=3eN9q5y8xQU"
+        },
+        {
+          "name": "Toyota bZ4X",
+          "model": "XLE AWD 2024",
+          "price": "$43,000",
+          "description": "Toyota's first all-electric SUV with futuristic design and features.",
+          "video": "https://www.youtube.com/watch?v=EYq9I6sPSfQ"
+        }
+      ]
+      
+}

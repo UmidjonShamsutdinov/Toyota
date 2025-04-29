@@ -5,32 +5,61 @@ import { useState } from "react"
 import "./Nav.scss"
 import { FaChevronDown } from "react-icons/fa";
 import { FaRegCircleUser } from "react-icons/fa6";
+import data  from "../../db/db.json"
+
 
 const Nav = () => {
     const [loggedIn, setLoggedIn] = useState<boolean>(false)
-
+    const [hiddenProducts, setHiddenProducts] = useState<string>("hidden")
+    
+    
     const loggingIn = () => {
+        // Logging informations are here
         setLoggedIn(!loggedIn)
     }
 
-    const handleAnimate = (e:any) => {
-        if(e.currentTarget.childNodes[1].className === "animate"){
-            e.currentTarget.childNodes[1].className = "animate-reverse"           
-            return 0;
-        }      
-        for(let i:number=0; i<e.currentTarget.parentElement.children.length-1; i++){
-            if(e.currentTarget.parentElement.children[i].childNodes[1].className === "animate"){
-                e.currentTarget.parentElement.children[i].childNodes[1].className = "animate-reverse"         
-
+    const handleAnimate = (e: React.MouseEvent<HTMLElement>) => {
+        const currentChild = e.currentTarget.childNodes[1] as HTMLElement;
+        setHiddenProducts("flex")
+        if (currentChild.className === "animate") {
+            currentChild.className = "animate-reverse";
+            setHiddenProducts("hidden")
+            return;
+        }
+        
+        const parentChildren = e.currentTarget.parentElement!.children;
+        for (let i = 0; i < parentChildren.length - 1; i++) {
+            const child = parentChildren[i].childNodes[1] as HTMLElement;
+            if (child.className === "animate") {
+                child.className = "animate-reverse";
             }
-        }        
-        e.currentTarget.childNodes[1].className = "animate"        
-    }
+        }
+    
+        currentChild.className = "animate";
+    };
 
 
 
   return (
     <nav className="nav-main">
+        <div className={`products-details-${hiddenProducts}`}>
+            <div className="hidden-products">
+                <div className="hudden-products-sidebar">
+                    Sidebar
+                </div>
+                <div className="hidden-products-grid">
+                    {
+                        data.Products.map((e:any, i:number)=>
+                            <div className="grid-card" key={i}>
+                                <img src={e.images?.[1]} alt="Photos"/>
+                                <p>{e.name}</p>
+                                <p>{e.model}</p>
+                            </div>
+                        )
+                    }
+                </div>
+            </div>
+        </div>
         <Container>
             <div className="nav">
                 <div className="logo">
