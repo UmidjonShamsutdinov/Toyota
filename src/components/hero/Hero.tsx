@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <div className="hero-main">
       <video width="100%" autoPlay muted loop>
-        <source src={"https://files.catbox.moe/84x49i.mp4"} type="video/mp4" />
+        <source src={heroData["hero-video"]} type="video/mp4" />
         Sizning brauzeringiz video formatni qo‘llab-quvvatlamaydi.
       </video>
       
