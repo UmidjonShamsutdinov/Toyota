@@ -1,0 +1,29 @@
+.more-fun{
+    max-width: 100%;
+    background: linear-gradient(to bottom, rgba(235, 202, 168, 0.514), transparent);
+    padding: 65px 0;
+    &__main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 846px;
+        margin: 0 auto;
+        gap: 32px 0;
+        h2{
+            font-size: 64px;
+            white-space: wrap;
+            text-align: center;
+        }
+        p{
+            font-size: 24px;
+            text-align: center;
+            letter-spacing: 1px;
+            line-height: 32px;
+            font-weight: 300;
+        }
+    }
+}
+
+
+
+

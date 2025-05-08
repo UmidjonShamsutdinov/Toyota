@@ -20,6 +20,16 @@ export const Container = ({children}:{children:React.ReactNode})=>{
 
 
 
+export const SmallContainer = ({children}:{children:React.ReactNode})=>{
+  return(
+    <div className="small-container">
+      {children}
+    </div>
+  )
+}
+
+
+
 interface ReusableButtonProps {
   name: React.ReactNode;
   size: number
