@@ -1,3 +1,4 @@
+import React from "react"
 import "./Utils.scss"
 const Utils = () => {
   return (
@@ -20,16 +21,22 @@ export const Container = ({children}:{children:React.ReactNode})=>{
 
 
 interface ReusableButtonProps {
-  name?: React.ReactNode;
+  name: React.ReactNode;
+  size: number
   Bgcolor?: string; // optional, agar doim bo'lishi shart bo'lmasa
   color?: string;   // optional
 }
 
 export const ReusableButton = (props:ReusableButtonProps)=>{
+  
   return (
-    <button className="reusable-button" style={{backgroundColor:props.Bgcolor, color:props.color}}>
+    <button className="reusable-button" style={{backgroundColor:props.Bgcolor, color:props.color, fontSize:props.size+"px"}}>
       {props.name}
     </button>
   )
 }
+
+
+
+
 
