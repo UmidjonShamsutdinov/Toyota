@@ -18,7 +18,7 @@ const FixedNavigation = () => {
                     <li><Link to={"/"}>Compare</Link></li>
                     <li><Link to={"/"}>Offers</Link></li>
                 </ul>
-                <ReusableButton Bgcolor="#fff" color="#000" name="Build" size={14}/>
+                <ReusableButton Bgcolor="#fff" color="#000" name="Build" size={14} after={true}/>
             </div>
         </Container>
     </div>

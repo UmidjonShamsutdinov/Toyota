@@ -28,7 +28,7 @@ const Hero = () => {
             <h2>{heroData["hero-title"]}</h2>
             <div>
               <p>{heroData["hero-text"]} <span>{heroData["hero-span-text"]}</span></p>
-              <ReusableButton Bgcolor={"#000"} name="Info" color={"#fff"} size={14}/>
+              <ReusableButton Bgcolor={"#000"} name="Info" color={"#fff"} size={14} after={true}/>
               <ReusableButton Bgcolor={"#fff"} name={<IoPauseOutline/>} color={"#000"} size={16}/>
             </div>
         </div>

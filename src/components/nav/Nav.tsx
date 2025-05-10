@@ -6,6 +6,7 @@ import "./Nav.scss"
 import { FaChevronDown } from "react-icons/fa";
 import { FaRegCircleUser } from "react-icons/fa6";
 import data  from "../../db/db.json"
+import { Link } from "react-router-dom";
 
 
 const Nav = () => {
@@ -63,7 +64,9 @@ const Nav = () => {
         <Container>
             <div className="nav">
                 <div className="logo">
+                    <Link to={"/"}>
                     <img src={mainLogo} alt="" className="main-logo" width={124}/>
+                    </Link>
                 </div>
                 <div className="nav-details">
                     <p onClick={(e)=>{handleAnimate(e)}}>Vehicles<span><FaChevronDown/></span></p>

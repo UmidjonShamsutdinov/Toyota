@@ -18,7 +18,7 @@
 
 .reusable-button{
     display: flex;
-    padding: 5px 16px;
+    padding: 5px 24px;
     border-radius: 20px;
     align-items: center;
     text-align: center;
@@ -27,4 +27,43 @@
     font-weight: 400;
     border: 1px solid #fff;
     cursor: pointer;
+    position: relative;
+}
+
+
+.btn-after{ 
+    transition: 1s;
+    &::after{
+        transition: .3s;
+        position: absolute;
+        content: ">";
+        top: calc(50% - 8px);
+        right: 16px;
+        opacity: 0;
+    }
+    &:hover{
+        &::after{
+            position: absolute;
+            content: ">";
+            top: calc(50% - 8px);
+            right: 16px;
+            opacity: 1;
+        }
+        .btn-text{
+            animation-name: btn-anim;
+            animation-duration: .3s;
+            animation-fill-mode: forwards;
+        }
+    }   
+}
+
+
+
+@keyframes btn-anim{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-6px);
+    }
 }
